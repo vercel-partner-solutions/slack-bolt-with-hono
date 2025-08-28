@@ -17,7 +17,7 @@ app.get('/', (c) => {
 
 const handler = createHandler(boltApp, receiver)
 
-app.post('/api/slack/event', async (c) => {
+app.post('/api/slack/events', async (c) => {
   const rawBody = await c.req.raw.text()
   return handler(c.req.raw)
 })
