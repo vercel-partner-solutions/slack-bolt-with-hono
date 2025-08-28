@@ -8,6 +8,11 @@ Before getting started, make sure you have a development workspace where you hav
 
 ## Installation
 
+### Clone and install dependencies
+```bash
+git clone https://github.com/vercel-partner-solutions/slack-bolt-with-hono.git && cd slack-bolt-with-hono && pnpm install
+```
+
 ### Create a Slack App
 
 1. Open https://api.slack.com/apps/new and choose "From an app manifest"
