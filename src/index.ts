@@ -4,8 +4,6 @@ import { app as boltApp, receiver } from './bolt/app.js'
 
 const app = new Hono()
 
-console.log(process.env.test)
-
 const welcomeStrings = [
   'Hello Hono!',
   'To learn more about Hono on Vercel, visit https://vercel.com/docs/frameworks/hono'
